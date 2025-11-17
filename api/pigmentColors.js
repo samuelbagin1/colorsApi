@@ -77,6 +77,7 @@ export default async (req, res) => {
                 pairId: pairKey,
                 primary: colors.primary,
                 secondary: colors.secondary,
+                _id: new ObjectId()
               });
             }
 
